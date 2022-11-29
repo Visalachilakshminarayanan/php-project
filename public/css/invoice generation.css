@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.invoice{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows:60px 60px;
+}
+
+.invoice #submit{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    height:30px;
+    width: 130px;
+}
+.date-input input{
+    width:165px;
+}
